@@ -3,14 +3,20 @@
 
 <head>
     <link href="./output.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
-        rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Tagesschrift&display=swap" rel="stylesheet">
+
+    <!-- font awesome -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet" />
 </head>
 
 <body class="h-screen">
     <!-- Header  -->
-    <nav class="bg-white-500 w-full h-20 py-5 flex justify-around shadow-xl/30">
+    <!-- <nav class="bg-white-500 w-full h-20 py-5 flex justify-around shadow-xl/30">
         <div class="font-winky text-4xl font-bold primary-text">Coder</div>
         <div class="font-winky text-xl font-normal" id="navbar-default">
             <div class="flex flex-wrap">
@@ -26,290 +32,371 @@
                     Contact</a>
             </div>
         </div>
-    </nav>
+    </nav> -->
 
-    <!-- banner -->
-    <div class="font-winky md:h-[40rem] grid grid-cols-2 place-items-center p-4 gap-4">
-        <div class="flex flex-col tracking-wide">
-            <div class="text-base sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl text-gray-700">
+
+    <!-- Hero Section -->
+    <section class="w-full">
+        <div class="flex flex-col my-23 sm:my-30 lg:my-48 place-items-center">
+            <div class="text-3xl mb-3 sm:text-5xl sm:mb-5 lg:text-3xl  text-gray-700">
                 Peace Be Upon You!
             </div>
-            <div
-                class="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl pt-2 pb-7 text-gray-700 drop-shadow-md">
+            <div class="text-xl sm:text-3xl  lg:text-8xl  text-gray-700 drop-shadow-md">
                 I'M Freelencer
             </div>
-            <div class="text-sm sm:base md:text-lg lg:text-xl xl:text-xl text-gray-500">
+            <div
+                class="text-sm mt-4 mb-3 sm:text-lg sm:mt-6 sm:mb-4 lg:text-xl lg:mt-10 lg:tracking-wider text-gray-600">
                 Web Development & Digital Marketer
             </div>
             <button type="button"
-                class="w-max focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-sm text-xl px-7 py-3 my-5 dark:bg-purple-600 dark:hover:bg-purple-700 dark:focus:ring-purple-900">
-                See my work
-            </button>
+                class="w-max text-base py-2 px-7 sm:text:xl sm:py-3 lg:py-3 lg:px-7 lg:mt-2 rounded focus:outline-none text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium">See
+                my work</button>
         </div>
+    </section>
 
-        <div class="flex justify-center">
-            <img src="dev-banner.svg" alt="" class="w-60 md:w-80 lg:w-120" />
-        </div>
-    </div>
 
     <!-- What I Do -->
-    <div class="">
-        <div class="grid md:grid-cols-1 lg:grid-cols-2 sm:grid-cols-1 font-winky p-10">
-            <div class="px-20 flex flex-col items-start justify-center">
-                <div class="text-5xl lg:text-4xl md:text-3xl sm:text-xl my-5">
-                    What I Do ?
+    <section class="">
+        <div class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 font-winky sm:p-5">
+
+            <div class="px-10 sm:px-20 my-10 flex flex-col items-start justify-justify">
+                <div class="text-3xl sm:text-3xl lg:text-4xl font-bold">
+                    What I Do
                 </div>
-                <div class="text-2xl lg:text-2xl md:text-xl sm:text-base text-gray-700">
+                <div class="text-base mt-4 sm:text-xl sm:mt-3 lg:text-base text-gray-700 text-justify">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum,
                     modi consequatur laborum eum quidem nemo animi nesciunt molestias
                     atque molestiae ad voluptates labore minima repudiandae corrupti,
                 </div>
             </div>
-            <div class="px-20 flex flex-col items-start justify-end pt-20">
-                <div class="mb-1 text-base font-medium text-gray-800">
+
+
+
+
+            <div class="px-10 flex flex-col items-start justify-end sm:px-20">
+
+                <div class="text-base sm:text-2xl sm:mb-3 sm:mt-4 lg:text-base lg:mb-2 font-medium text-gray-800">
                     Web Development
                 </div>
                 <div class="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
                     <div class="bg-purple-600 h-2.5 rounded-full dark:bg-purple-500" style="width: 65%"></div>
                 </div>
 
-                <div class="mb-1 my-3 text-base font-medium text-gray-800">
+
+
+
+                <div class="mb-1 sm:text-2xl sm:mb-3 sm:mt-4 lg:text-base lg:mb-2  font-medium text-gray-800">
                     Digital Marketing
                 </div>
                 <div class="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
                     <div class="bg-green-600 h-2.5 rounded-full dark:bg-green-500" style="width: 95%"></div>
                 </div>
 
-                <div class="mb-1 my-3 text-base font-medium text-gray-800">
+                <div class="mb-1 sm:text-2xl sm:mb-3 sm:mt-4 lg:text-base lg:mb-2  font-medium text-gray-800">
                     Mobile Application
                 </div>
                 <div class="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
                     <div class="bg-pink-600 h-2.5 rounded-full dark:bg-pink-500" style="width: 35%"></div>
                 </div>
 
-                <div class="mb-1 my-3 text-base font-medium text-gray-800">
+                <div class="mb-1 sm:text-2xl sm:mb-3 sm:mt-4 lg:text-base lg:mb-2 font-medium text-gray-800">
                     Web Designing
                 </div>
                 <div class="w-full bg-gray-200 rounded-full h-1.5 mb-4 dark:bg-gray-700">
                     <div class="bg-blue-600 h-2.5 rounded-full dark:bg-blue-500" style="width: 85%"></div>
                 </div>
             </div>
+
+
         </div>
+
+
 
         <div
-            class="max-w-7xl mx-auto grid grid-cols-4 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 font-winky p-16 place-items-center my-10">
-            <div class="text-center px-5">
-                <div class="text-3xl"><i class="fa-regular fa-credit-card"></i></div>
-                <div class="mb-3 mt-2 text-2xl lg:text-2xl md:text-xl sm:text-base">
+            class="max-w-7xl sm:max-w-7xl lg:w-full mx-auto grid md:grid-cols-2 lg:grid-cols-4 font-winky place-items-center my-10">
+
+            <div class="text-center mb-20 mt-5 px-5 sm:px-10">
+
+                <div class="text-3xl sm:text-5xl md:text-4xl lg:text-3xl text-purple-700">
+                    <i class="fa-regular fa-credit-card"></i>
+                </div>
+
+
+                <div
+                    class="mt-5 mb-3 sm:mt-6 sm:mb-4 md:mt-4 md:mb-3 lg:mt-3 lg:mb-2 text-xl sm:text-3xl md:text-2xl lg:text-xl tracking-wide font-semibold text-gray-800">
                     Web Design
                 </div>
-                <div class="text-xl lg:text-base text-gray-700">
+
+
+                <div class="text-sm sm:text-lg md:text-base lg:text-sm text-gray-600 leading-relaxed">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatibus libero repellendus conse quatur exercit ationem
+                    Voluptatibus libero repellendus consequatur exercitationem.
                 </div>
             </div>
 
-            <div class="text-center px-5">
-                <div class="text-3xl">
+
+
+            <div class="text-center mb-20 mt-5 px-5 sm:px-10">
+                <div class="text-3xl sm:text-5xl md:text-4xl lg:text-3xl text-purple-700">
                     <i class="fa-solid fa-mobile-screen-button"></i>
                 </div>
-                <div class="mb-3 mt-2 text-2xl lg:text-2xl md:text-xl sm:text-base">
+                <div
+                    class="mt-5 mb-3 sm:mt-6 sm:mb-4 md:mt-4 md:mb-3 lg:mt-3 lg:mb-2 text-xl sm:text-3xl md:text-2xl lg:text-xl tracking-wide font-semibold text-gray-800">
                     Mobile Design
                 </div>
-                <div class="text-xl lg:text-base text-gray-700">
+                <div class="text-sm sm:text-lg md:text-base lg:text-sm text-gray-600 leading-relaxed">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatibus libero repellendus conse quatur exercit ationem
+                    Voluptatibus libero repellendus consequatur exercitationem.
                 </div>
             </div>
 
-            <div class="text-center px-5">
-                <div class="text-3xl">
+
+            <div class="text-center mb-20 mt-5 px-5 sm:px-10">
+                <div class="text-3xl sm:text-5xl md:text-4xl lg:text-3xl text-purple-700">
                     <i class="fa-brands fa-connectdevelop"></i>
                 </div>
-                <div class="mb-3 mt-2 text-2xl lg:text-2xl md:text-xl sm:text-base">
+                <div
+                    class="mt-5 mb-3 sm:mt-6 sm:mb-4 md:mt-4 md:mb-3 lg:mt-3 lg:mb-2 text-xl sm:text-3xl md:text-2xl lg:text-xl tracking-wide font-semibold text-gray-800">
                     Development
                 </div>
-                <div class="text-xl lg:text-base text-gray-700">
+                <div class="text-sm sm:text-lg md:text-base lg:text-sm text-gray-600 leading-relaxed">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatibus libero repellendus conse quatur exercit ationem
+                    Voluptatibus libero repellendus consequatur exercitationem.
                 </div>
             </div>
 
-            <div class="text-center px-5">
-                <div class="text-3xl"><i class="fa-brands fa-searchengin"></i></div>
-                <div class="mb-3 mt-2 text-2xl lg:text-2xl md:text-xl sm:text-base">
+
+            <div class="text-center mb-20 mt-5 px-5 sm:px-10">
+                <div class="text-3xl sm:text-5xl md:text-4xl lg:text-3xl text-purple-700">
+                    <i class="fa-brands fa-searchengin"></i>
+                </div>
+                <div
+                    class="mt-5 mb-3 sm:mt-6 sm:mb-4 md:mt-4 md:mb-3 lg:mt-3 lg:mb-2 text-xl sm:text-3xl md:text-2xl lg:text-xl tracking-wide font-semibold text-gray-800">
                     SEO
                 </div>
-                <div class="text-xl lg:text-base text-gray-700">
+                <div class="text-sm sm:text-lg md:text-base lg:text-sm text-gray-600 leading-relaxed">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Voluptatibus libero repellendus conse quatur exercit ationem
+                    Voluptatibus libero repellendus consequatur exercitationem.
                 </div>
             </div>
+
+
         </div>
-    </div>
+    </section>
+
+
 
     <!-- Testimonials -->
 
-    <div class="text-center text-5xl py-3 font-winky" style="text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5)">
+
+    <div class="text-center pb-5 pt-16 text-2xl lg:text-4xl font-bold tracking-wider">
         Our Clients Feedback
     </div>
 
-    <div class="py-22 font-winky">
-        <div class="flex justify-around items-center w-full py-5">
-            <div>
-                <button id="leftcard"
-                    class="text-3xl p-4 rounded-bl-full rounded-tl-full shadow-2xl hover:shadow-3xl transition duration-300 ease-in-out">
-                    <i class="fa-solid fa-chevron-left"></i>
-                </button>
-            </div>
-            <div class="grid grid-cols-2">
-                <div class="size-100 bg-white shadow-2xl mx-5 rounded-b-4xl relative">
-                    <div class="w-full flex justify-center">
-                        <img src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg"
-                            class="size-36 rounded-full ring-8 ring-gray-700 absolute -top-15" alt="" />
-                    </div>
 
-                    <div class="flex w-full mt-30 justify-center relative px-5">
-                        <div class="text-xl mx-1 text-yellow-500">
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="text-xl mx-1 text-yellow-500">
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="text-xl mx-1 text-yellow-500">
-                            <i class="fa-regular fa-star-half-stroke"></i>
-                        </div>
-                        <div class="text-xl mx-1 text-yellow-500">
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                        <div class="text-xl mx-1 text-yellow-500">
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                    </div>
 
-                    <div class="text-base px-10 text-center mt-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                        repellendus culpa repellat voluptates quas ea ratione. Tempore
-                        quisquam maxime culpa, obcaecati quis sapiente voluptatem veniam
-                        atque repudiandae laboriosam, iure ea.
-                    </div>
 
-                    <div class="text-center w-full font-bold absolute bottom-5">
-                        Amber Systam
+
+
+    <div class="py-22 sm:py-1 font-winky">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 place-items-center px-8 lg:px-20">
+
+
+            <div
+                class="w-80 h-85 lg:size-100 xl:size-90 bg-white shadow-2xl mx-5 rounded-b-4xl relative mb-30 mt-10 sm:mt-25 lg:mt-35 ">
+                <div class="w-full flex justify-center">
+                    <img src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg"
+                        class="size-28 lg:size-32 rounded-full ring-8 ring-gray-700 absolute -top-15" alt="" />
+                </div>
+
+                <div class="flex w-full mt-22 justify-center relative px-5">
+                    <div class="text-xl mx-1 text-yellow-500">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="text-xl mx-1 text-yellow-500">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="text-xl mx-1 text-yellow-500">
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <div class="text-xl mx-1 text-yellow-500">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="text-xl mx-1 text-yellow-500">
+                        <i class="fa-regular fa-star"></i>
                     </div>
                 </div>
 
-                <div class="size-100 bg-white shadow-2xl mx-5 rounded-b-4xl relative">
-                    <div class="w-full flex justify-center">
-                        <img src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg"
-                            class="size-36 rounded-full ring-8 ring-gray-700 absolute -top-15" alt="" />
-                    </div>
+                <div class="text-sm lg:text-base xl:text-base text-justify px-8 mt-5 lg:mt-8 xl:mt-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                    repellendus culpa repellat voluptates quas ea ratione. Tempore
+                    quisquam maxime culpa, obcaecati quis sapiente voluptatem veniam
+                    atque repudiandae laboriosam, iure ea.
+                </div>
 
-                    <div class="flex w-full mt-30 justify-center relative px-5">
-                        <div class="text-xl mx-1 text-yellow-500">
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="text-xl mx-1 text-yellow-500">
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="text-xl mx-1 text-yellow-500">
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <div class="text-xl mx-1 text-yellow-500">
-                            <i class="fa-regular fa-star-half-stroke"></i>
-                        </div>
-                        <div class="text-xl mx-1 text-yellow-500">
-                            <i class="fa-regular fa-star"></i>
-                        </div>
-                    </div>
-
-                    <div class="text-base px-10 text-center mt-5">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-                        repellendus culpa repellat voluptates quas ea ratione. Tempore
-                        quisquam maxime culpa, obcaecati quis sapiente voluptatem veniam
-                        atque repudiandae laboriosam, iure ea.
-                    </div>
-
-                    <div class="text-center w-full font-bold absolute bottom-5">
-                        Amber Systam
-                    </div>
+                <div class="text-center w-full font-bold absolute bottom-5 lg:bottom-10 xl:bottom-5">
+                    Amber Systam
                 </div>
             </div>
 
-            <div>
-                <button id="leftcard"
-                    class="text-3xl p-4 rounded-br-full rounded-tr-full shadow-2xl hover:shadow-3xl transition duration-300 ease-in-out">
-                    <i class="fa-solid fa-chevron-right"></i>
-                </button>
+            <div
+                class="w-80 h-85 lg:size-100 xl:size-90 bg-white shadow-2xl mx-5 rounded-b-4xl relative mb-30 mt-10 sm:mt-25 lg:mt-35 ">
+                <div class="w-full flex justify-center">
+                    <img src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg"
+                        class="size-28 lg:size-32 rounded-full ring-8 ring-gray-700 absolute -top-15" alt="" />
+                </div>
+
+                <div class="flex w-full mt-22 justify-center relative px-5">
+                    <div class="text-xl mx-1 text-yellow-500">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="text-xl mx-1 text-yellow-500">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="text-xl mx-1 text-yellow-500">
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <div class="text-xl mx-1 text-yellow-500">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="text-xl mx-1 text-yellow-500">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="text-sm lg:text-base xl:text-base text-justify px-8 mt-5 lg:mt-8 xl:mt-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                    repellendus culpa repellat voluptates quas ea ratione. Tempore
+                    quisquam maxime culpa, obcaecati quis sapiente voluptatem veniam
+                    atque repudiandae laboriosam, iure ea.
+                </div>
+
+                <div class="text-center w-full font-bold absolute bottom-5 lg:bottom-10 xl:bottom-5">
+                    Amber Systam
+                </div>
             </div>
+
+            <div
+                class="w-80 h-85 lg:size-100 xl:size-90 bg-white shadow-2xl mx-5 rounded-b-4xl relative mb-30 mt-10 sm:mt-25 lg:mt-35 ">
+                <div class="w-full flex justify-center">
+                    <img src="https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg"
+                        class="size-28 lg:size-32 rounded-full ring-8 ring-gray-700 absolute -top-15" alt="" />
+                </div>
+
+                <div class="flex w-full mt-22 justify-center relative px-5">
+                    <div class="text-xl mx-1 text-yellow-500">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="text-xl mx-1 text-yellow-500">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="text-xl mx-1 text-yellow-500">
+                        <i class="fa-regular fa-star-half-stroke"></i>
+                    </div>
+                    <div class="text-xl mx-1 text-yellow-500">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                    <div class="text-xl mx-1 text-yellow-500">
+                        <i class="fa-regular fa-star"></i>
+                    </div>
+                </div>
+
+                <div class="text-sm lg:text-base xl:text-base text-justify px-8 mt-5 lg:mt-8 xl:mt-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                    repellendus culpa repellat voluptates quas ea ratione. Tempore
+                    quisquam maxime culpa, obcaecati quis sapiente voluptatem veniam
+                    atque repudiandae laboriosam, iure ea.
+                </div>
+
+                <div class="text-center w-full font-bold absolute bottom-5 lg:bottom-10 xl:bottom-5">
+                    Amber Systam
+                </div>
+            </div>
+
         </div>
     </div>
 
+
+
+
     <!-- Portfolio -->
     <div class="font-winky text-center py-15">
-        <div class="text-5xl font-bold pb-3">Portfolio</div>
+        <div class="text-center pb-5 pt-16 text-2xl lg:text-4xl font-bold tracking-wider">
+            Portfolio / Projects
+        </div>
 
-        <div class="d-flex justify-center place-items-center">
-            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 my-10">
-                <div class="w-full sm:w-72 md:w-80 lg:w-96 bg-white shadow-lg rounded-lg overflow-hidden">
+        <div class="d-flex justify-center">
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 my-10 px-10 py-10 sm:px-10">
+
+
+                <div class="w-full sm:w-full  bg-white rounded-lg overflow-hidden place-items-center mb-5">
                     <img src="https://bracketweb.com/digihubwp/wp-content/uploads/2023/11/portfolio-1-1.jpg"
                         class="w-full h-60 object-cover" alt="Portfolio Image" />
 
-                    <div class="p-5">
-                        <div class="text-start text-2xl font-semibold text-gray-800 mb-3">
+                    <div class="p-3">
+                        <div class="text-start text-lg font-semibold text-gray-800 mb-2">
                             We need to build it so that it scales single
                         </div>
-                        <div class="text-start text-base text-gray-600">
+                        <div class="text-justify text-sm mb-1 text-gray-600 tracking-tight sm:tracking-wider">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                            vero quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
                             vero quas.
                         </div>
                         <div class="flex justify-start">
-                            <button class="px-5 py-2 bg-purple-500 hover:bg-purple-600 text-white rounded mt-2">
+                            <button class="px-5 py-2 bg-purple-600  text-white rounded mt-2">
                                 Visit here
                             </button>
                         </div>
                     </div>
                 </div>
 
-                <div class="w-full sm:w-72 md:w-80 lg:w-96 bg-white shadow-lg rounded-lg overflow-hidden">
+
+                <div class="w-full sm:w-full  bg-white rounded-lg overflow-hidden place-items-center mb-5">
                     <img src="https://bracketweb.com/digihubwp/wp-content/uploads/2023/11/portfolio-1-1.jpg"
                         class="w-full h-60 object-cover" alt="Portfolio Image" />
 
-                    <div class="p-5">
-                        <div class="text-start text-2xl font-semibold text-gray-800 mb-3">
+                    <div class="p-3">
+                        <div class="text-start text-lg font-semibold text-gray-800 mb-2">
                             We need to build it so that it scales single
                         </div>
-                        <div class="text-start text-base text-gray-600">
+                        <div class="text-justify text-sm mb-1 text-gray-600 tracking-tight sm:tracking-wider">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                            vero quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
                             vero quas.
                         </div>
                         <div class="flex justify-start">
-                            <button class="px-5 py-2 bg-purple-500 hover:bg-purple-600 text-white rounded mt-2">
+                            <button class="px-5 py-2 bg-purple-600  text-white rounded mt-2">
                                 Visit here
                             </button>
                         </div>
                     </div>
                 </div>
 
-                <div class="w-full sm:w-72 md:w-80 lg:w-96 bg-white shadow-lg rounded-lg overflow-hidden">
+
+
+                <div class="w-full sm:w-full  bg-white rounded-lg overflow-hidden place-items-center mb-5">
                     <img src="https://bracketweb.com/digihubwp/wp-content/uploads/2023/11/portfolio-1-1.jpg"
                         class="w-full h-60 object-cover" alt="Portfolio Image" />
 
-                    <div class="p-5">
-                        <div class="text-start text-2xl font-semibold text-gray-800 mb-3">
+                    <div class="p-3">
+                        <div class="text-start text-lg font-semibold text-gray-800 mb-2">
                             We need to build it so that it scales single
                         </div>
-                        <div class="text-start text-base text-gray-600">
+                        <div class="text-justify text-sm mb-1 text-gray-600 tracking-tight sm:tracking-wider">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+                            vero quas. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
                             vero quas.
                         </div>
                         <div class="flex justify-start">
-                            <button class="px-5 py-2 bg-purple-500 hover:bg-purple-600 text-white rounded mt-2">
+                            <button class="px-5 py-2 bg-purple-600  text-white rounded mt-2">
                                 Visit here
                             </button>
                         </div>
                     </div>
                 </div>
+
+
+
             </div>
         </div>
     </div>
@@ -319,49 +406,60 @@
     <div class="font-winky py-10">
         <div class="text-5xl text-center font-bold pb-10">Services</div>
 
-        <div class="grid grid-cols-1 sm:grid-cols-3 lg:grid-cols-5 place-items-center">
-            <div class="size-50 bg-white my-5 shadow-2xl rounded-2xl flex flex-col justify-center gap-2 items-center">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 place-items-center lg:px-20">
+
+            <div
+                class="size-60  bg-white hover:bg-purple-600  hover:text-white focus:bg-purple-600 hover:rounded-full duration-1000 my-5 border-purple-700 border-2 shadow-2xl rounded-2xl flex flex-col justify-center gap-2 items-center">
                 <div class="my-3 text-xl">
                     <i class="fa-solid fa-pencil"></i>
                 </div>
                 <div class="text-xl">Content Write</div>
             </div>
 
-            <div class="size-50 bg-white my-5 shadow-2xl rounded-2xl flex flex-col justify-center items-center">
+
+
+
+            <div
+                class="size-60  bg-white hover:bg-purple-600  hover:text-white focus:bg-purple-600 hover:rounded-full duration-1000 my-5 border-purple-700 border-2 shadow-2xl rounded-2xl flex flex-col justify-center gap-2 items-center">
                 <div class="my-3 text-xl">
                     <i class="fa-brands fa-firefox-browser"></i>
                 </div>
                 <div class="text-xl">Web Development</div>
             </div>
 
-            <div class="size-50 bg-white my-5 shadow-2xl rounded-2xl flex flex-col justify-center items-center">
+            <div
+                class="size-60  bg-white hover:bg-purple-600  hover:text-white focus:bg-purple-600 hover:rounded-full duration-1000 my-5 border-purple-700 border-2 shadow-2xl rounded-2xl flex flex-col justify-center gap-2 items-center">
                 <div class="my-3 text-xl">
                     <i class="fa-solid fa-pencil"></i>
                 </div>
                 <div class="text-xl">Email Marketing</div>
             </div>
 
-            <div class="size-50 bg-white my-5 shadow-2xl rounded-2xl flex flex-col justify-center items-center">
+            <div
+                class="size-60  bg-white hover:bg-purple-600  hover:text-white focus:bg-purple-600 hover:rounded-full duration-1000 my-5 border-purple-700 border-2 shadow-2xl rounded-2xl flex flex-col justify-center gap-2 items-center">
                 <div class="my-3 text-xl">
                     <i class="fa-solid fa-pencil"></i>
                 </div>
                 <div class="text-xl">Photography</div>
             </div>
 
-            <div class="size-50 bg-white my-5 shadow-2xl rounded-2xl flex flex-col justify-center items-center">
+            <div
+                class="size-60  bg-white hover:bg-purple-600  hover:text-white focus:bg-purple-600 hover:rounded-full duration-1000 my-5 border-purple-700 border-2 shadow-2xl rounded-2xl flex flex-col justify-center gap-2 items-center">
                 <div class="my-3 text-xl">
                     <i class="fa-solid fa-pencil"></i>
                 </div>
                 <div class="text-xl">Blog Posting</div>
             </div>
 
-            <div class="size-50 bg-white my-5 shadow-2xl rounded-2xl flex flex-col justify-center items-center">
+            <div
+                class="size-60  bg-white hover:bg-purple-600  hover:text-white focus:bg-purple-600 hover:rounded-full duration-1000 my-5 border-purple-700 border-2 shadow-2xl rounded-2xl flex flex-col justify-center gap-2 items-center">
                 <div class="my-3 text-xl">
                     <i class="fa-solid fa-pencil"></i>
                 </div>
                 <div class="text-xl">E-book Writing</div>
             </div>
-            <div class="size-50 bg-white my-5 shadow-2xl rounded-2xl flex flex-col justify-center items-center">
+            <div
+                class="size-60  bg-white hover:bg-purple-600  hover:text-white focus:bg-purple-600 hover:rounded-full duration-1000 my-5 border-purple-700 border-2 shadow-2xl rounded-2xl flex flex-col justify-center gap-2 items-center">
                 <div class="my-3 text-xl">
                     <i class="fa-solid fa-pencil"></i>
                 </div>
@@ -372,23 +470,32 @@
 
 
     <!-- About -->
-    <section class="w-full bg-gray-100 flex items-center justify-center px-6 font-winky py-20">
-        <div class="max-w-6xl w-full grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
-            <!-- Left Side Image -->
-            <div class="flex justify-center">
-                <img src="https://images8.alphacoders.com/645/645379.jpg" alt="About Image"
-                    class="rounded-xl shadow-lg w-full" />
+    <section class="w-full lg:h-full bg-gray-100 relative flex font-winky">
+
+        <div class="size-50 lg:size-80 bg-sky-200 opacity-90 rounded-br-full absolute">
+        </div>
+
+        <div class="size-50 lg:size-80 bg-sky-200 opacity-90 rounded-tl-full absolute right-0 bottom-0">
+        </div>
+
+
+        <div class="w-full grid grid-cols-1 lg:grid-cols-2 items-center p-10">
+            <div class="flex justify-center z-10">
+                <img src="https://images.pexels.com/photos/8389189/pexels-photo-8389189.jpeg?cs=srgb&dl=pexels-eberhardgross-8389189.jpg&fm=jpg"
+                    alt="About Image" class="rounded shadow-lg w-1/2" />
             </div>
 
-            <!-- Right Side Text -->
-            <div class="space-y-6">
-                <h2 class="lg:text-4xl sm:text-5xl font-bold text-gray-800">
+            <div class="mt-8 space-y-3 z-10">
+                <div class="text-4xl lg:text-4xl sm:text-5xl font-bold text-gray-800">
+                    I'M Dev
+                </div>
+                <div class="tracking-wider text-xl">
                     Reach Out To Me
-                </h2>
+                </div>
                 <div class="lg:text-sm sm:text-3xl text-gray-600">
                     Discuss A Project Or Just want to Say Hi ? My Inbox Is open For All.
                 </div>
-                <p class="text-gray-600 text-xl">
+                <p class="text-base text-justify text-gray-600">
                     I’m a passionate
                     <span class="font-semibold text-indigo-600">Web Developer</span> and
                     <span class="font-semibold text-indigo-600">Digital Marketer</span>
@@ -396,25 +503,135 @@
                     that stand out.
                 </p>
 
-                <div class="flex">
-                    <div>Linked</div>
-                    <div>Github</div>
-                    <div>Twitter</div>
-                    <div>Whats App</div>
-                    <div>Instagram</div>
-                    <div>Facebook</div>
+                <div class="flex space-x-3">
+                    <div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/500px-LinkedIn_logo_initials.png"
+                            class="size-5" alt="">
+                    </div>
+                    <div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/GitHub_Invertocat_Logo.svg/250px-GitHub_Invertocat_Logo.svg.png"
+                            class="size-5" alt="">
+                    </div>
+
                 </div>
 
-                <button class="px-6 py-3 bg-indigo-600 text-white rounded-lg hover:bg-indigo-700 transition">
+                <button
+                    class="px-3 py-2 border-purple-600 text-purple-600 border-1  rounded hover:bg-indigo-700 transition">
                     Contact Me
                 </button>
             </div>
         </div>
     </section>
 
-    <div class="h-full bg-gray-200 text-2xl flex place-items-center justify-center w-full border font-winky">Wait For Some days For unique Design Buddy</div>
 
 
+    <!-- Contact -->
+    <div class="h-full bg-sky-50">
+        <div class="grid grid-cols-1 sm:grid-cols-1 lg:grid-cols-2 gap-8 px-6 sm:px-10 py-10 sm:py-20">
+
+            <!-- LEFT SIDE - Contact Info -->
+            <div class="py-5 lg:flex lg:flex-col justify-center lg:ms-25">
+                <!-- Heading -->
+                <div
+                    class="text-4xl sm:text-5xl font-semibold sm:text-center text-center lg:text-left text-gray-800 py-5">
+                    CONTACT
+                </div>
+
+                <!-- Phone -->
+                <div class="bg-white flex w-full lg:w-100 rounded-2xl p-4 items-center space-x-4 my-5 shadow">
+                    <div
+                        class="text-white bg-purple-600 rounded-2xl size-12 flex justify-center items-center shadow-lg">
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div>
+                        <div class="text-sm uppercase text-purple-600">Call Me</div>
+                        <div class="text-gray-800 font-medium">+91-8584759678</div>
+                    </div>
+                </div>
+
+                <!-- Email -->
+                <div class="bg-white flex w-full lg:w-100 rounded-2xl p-4 items-center space-x-4 shadow my-5">
+                    <div
+                        class="text-white bg-purple-600 rounded-2xl  size-12 flex justify-center items-center shadow-lg">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div>
+                        <div class="text-sm uppercase text-purple-600">Let's Talk About Project</div>
+                        <div class="text-gray-800 font-medium">mail@dummyexpress.com</div>
+                    </div>
+                </div>
+
+                <!-- Social -->
+                <div class="bg-white flex w-full lg:w-100 rounded-2xl p-4 items-center space-x-4 my-5 shadow">
+                    <div
+                        class="text-white bg-purple-600 rounded-2xl size-12 flex justify-center items-center shadow-lg">
+                        <i class="fa-solid fa-user-group"></i>
+                    </div>
+                    <div>
+                        <div class="text-sm uppercase text-purple-600">Follow Me</div>
+                        <div class="flex space-x-3 text-purple-600 mt-1 text-lg">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-whatsapp"></i>
+                            <i class="fa-brands fa-tumblr"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- RIGHT SIDE - Contact Form -->
+            <div class="w-full bg-white px-7 py-5 rounded-2xl shadow-lg">
+                <div class="text-center text-2xl my-5 font-bold"> Send Me Message</div>
+
+                <form class="space-y-5">
+                    <!-- Name -->
+
+                    <div class="flex flex-col">
+                        <label class="text-lg">Name</label>
+                        <input type="text"
+                            class="border p-2 rounded border-gray-300 focus:outline-none focus:border-purple-600 focus:ring-2 focus:ring-purple-600">
+                    </div>
+
+
+
+                    <!-- Email -->
+                    <div class="flex flex-col my-5">
+                        <label class="text-lg">Email</label>
+                        <input type="text"
+                            class="border p-2 rounded border-gray-300 focus:outline-none focus:border-purple-600 focus:ring-2 focus:ring-purple-600">
+                    </div>
+
+                    <!-- Subject -->
+                    <div class="flex flex-col my-5">
+                        <label class="text-lg">Subject</label>
+                        <input type="text"
+                            class="border p-2 rounded border-gray-300 focus:outline-none focus:border-purple-600 focus:ring-2 focus:ring-purple-600">
+                    </div>
+
+                    <!-- Message -->
+                    <div>
+                        <label class="block mb-1 text-gray-700 font-medium" for="message">Message</label>
+                        <textarea id="message" name="message" rows="4"
+                            class="w-full px-4 py-2 border border-gray-300 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-400 resize-none"></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div>
+                        <button type="submit"
+                            class="w-full py-3 my-5 text-white bg-purple-700 hover:bg-purple-800 rounded-xl font-semibold transition duration-300">
+                            Send Message
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="h-1/2 flex justify-center items-center text-5xl bg-red-500 font-bold">
+        This Is not End Next Thing is coming Soon .... :)
+    </div>
 
 
 </body>
